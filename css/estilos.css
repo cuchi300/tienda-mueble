@@ -359,8 +359,10 @@ img {
 .producto-dark {
     background-color: #0a4f77;
 }
-.nosotros-dark {
-    background-image: linear-gradient(to right, transparent 50%, #0a4f77 50%, #0a4f77 100%), url(../img/nosotros.jpg);
+@media (min-width: 768px) {
+    .nosotros-dark {
+        background-image: linear-gradient(to right, transparent 50%, #0a4f77 50%, #0a4f77 100%), url(../img/nosotros.jpg);
+    }
 }
 .dark-mode .formulario fieldset {
     border: 1px solid #fff;
