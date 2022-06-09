@@ -149,7 +149,7 @@ img {
 }
 /* HERO */
 .hero{
-    background-image: url(/img/principal.jpg);
+    background-image: url(../img/principal.jpg);
     height: 30rem;
     background-position: center center;
     background-repeat: no-repeat;
