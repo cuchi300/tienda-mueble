@@ -59,10 +59,10 @@ botonDark.addEventListener('click', function(e) {
 
 function navegacionFija() {
     const header = document.querySelector('.header');
-    const nav = document.querySelector('.contenedor-navegacion');
+    const hero = document.querySelector('.hero');
 
     window.addEventListener('scroll', function() {
-        if(nav.getBoundingClientRect().bottom < 0) {
+        if(hero.getBoundingClientRect().bottom < 0) {
             header.classList.add('fijo');
         } else {
             header.classList.remove('fijo');
